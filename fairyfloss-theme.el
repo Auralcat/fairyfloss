@@ -55,6 +55,8 @@ Authors:
  '(org-level-2 ((t (:foreground "#ff9f40"))))
  '(org-date ((t (:foreground "color-45" :underline t))))
  '(org-agenda-dimmed-todo-face ((t (:foreground "gold4"))))
+ '(org-scheduled-previously ((t (:foreground "#968f9b"))))
+ '(org-agenda-structure ((t (:foreground "#d5b568"))))
  '(org-agenda-structure ((t (:foreground "#d5b568"))))
  '(rainbow-delimiters-depth-1-face ((t (:inherit org-level-1))))
  '(rainbow-delimiters-depth-2-face ((t (:inherit org-level-2))))
