@@ -38,7 +38,7 @@ Authors:
  '(font-lock-builtin-face ((t (:foreground "#c5a3ff"))))
  '(font-lock-variable-name-face ((t (:foreground "#fff352"))))
  '(font-lock-keyword-face ((t (:foreground "#FFB8D1"))))
- '(font-lock-type-face ((t (:foreground "PaleGreen"))))
+ '(font-lock-type-face ((t (:foreground "#C2FFDF" :slant italic))))
  '(font-lock-function-name-face ((t (:foreground "#A1F9DB"))))
  '(font-lock-warning-face ((t nil)))
  '(font-lock-comment-delimiter-face ((t (:inherit (font-lock-comment-face)))))
@@ -86,6 +86,6 @@ Authors:
  '(company-tooltip ((t (:background "#39354b" :foreground "#99ebff"))))
  '(company-tooltip-selection ((t (:background "#626262" :foreground "#afd7ff"))))
  '(company-tooltip-common-selection ((t (:underline (:color foreground-color :style line) :foreground "#586e75"))))
- '(default ((t (:inherit nil :stipple nil :background "#5a5376" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal)))))
+ '(default ((t (:inherit nil :stipple nil :background "#5a5376" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120)))))
 
 (provide-theme 'fairyfloss)
