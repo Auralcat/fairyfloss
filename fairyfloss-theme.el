@@ -161,8 +161,6 @@ Authors:
 
   ;; General Org faces
   `(org-date ((t (:inherit font-lock-variable-name-face))))
-  `(org-level-2 ((t (:foreground "#ff9f40"))))
-  `(org-level-7 ((t (:foreground "color-81"))))
   `(org-scheduled-previously ((t (:foreground "#778855"))))
   `(org-scheduled-previously ((t (:inherit (font-lock-comment-face)))))
   `(org-scheduled-today ((t (:inherit (font-lock-type-face)))))
@@ -173,11 +171,11 @@ Authors:
   ;; Org levels
   `(org-level-1 ((t (:foreground ,fairy-gold-300))))
   `(org-level-2 ((t (:foreground ,fairy-carrot-300))))
-  `(org-level-3 ((t (:foreground ,fairy-blush-300))))
-  `(org-level-4 ((t (:foreground ,fairy-mint-300))))
-  `(org-level-5 ((t (:foreground ,fairy-sky-300))))
+  `(org-level-3 ((t (:foreground ,fairy-blush-500))))
+  `(org-level-4 ((t (:foreground ,fairy-mint-500))))
+  `(org-level-5 ((t (:foreground ,fairy-sky-500))))
   `(org-level-6 ((t (:foreground ,fairy-grape-300))))
-  `(org-level-7 ((t (:foreground ,fairy-grape-800))))
+  `(org-level-7 ((t (:foreground ,fairy-gold-800))))
 
   ;; Rainbow Delimiters
   `(rainbow-delimiters-depth-1-face ((t (:inherit org-level-1))))
