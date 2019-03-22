@@ -1,14 +1,20 @@
 {
   "name": "fairyfloss",
   "theme": "syntax",
+<<<<<<< HEAD
   "version": "0.2.0",
   "author": "Amy Wibowo <sailorhg@gmail.com>",
+=======
+  "version": "0.3.0",
+  "author": "Amy Wibowo <sailorhg@gmail.com>,
+             Auralcat <miriamretka@tutanota.com>",
+>>>>>>> e02c4f3f70754f0233e5aab5ac9278bacb3c4ddf
   "description": "Cute pastel theme created with ♥",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/sailorhg/fairyfloss",
+  "repository": "https://github.com/Auralcat/fairyfloss",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
