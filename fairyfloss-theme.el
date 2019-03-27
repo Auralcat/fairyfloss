@@ -152,20 +152,18 @@ Authors:
    `(next-error ((t (:inherit (region)))))
 
    ;; Org-agenda
-   `(org-agenda-dimmed-todo-face ((t (:foreground "gold4"))))
+   `(org-agenda-dimmed-todo-face ((t (:foreground ,fairy-space-500))))
    `(org-agenda-date ((t (:inherit font-lock-function-name-face))))
-   `(org-agenda-date-weekend ((t (:foreground "violet"))))
+   `(org-agenda-date-weekend ((t (:foreground ,fairy-grape-500))))
    `(org-agenda-structure ((t (:foreground "#EFDCCD"))))
-   `(org-agenda-structure ((t (:foreground "#d5b568"))))
-   `(org-upcoming-deadline ((t (:foreground "#B1AA98"))))
+   `(org-upcoming-deadline ((t (:foreground ,fairy-grape-400))))
 
    ;; General Org faces
    `(org-date ((t (:inherit font-lock-variable-name-face))))
-   `(org-scheduled-previously ((t (:foreground "#778855"))))
    `(org-scheduled-previously ((t (:inherit (font-lock-comment-face)))))
    `(org-scheduled-today ((t (:inherit (font-lock-type-face)))))
-   `(org-table ((t (:foreground "color-159"))))
-   `(org-todo ((t (:foreground "#FF857F" :weight bold))))
+   `(org-table ((t (:foreground ,fairy-gold-1000))))
+   `(org-todo ((t (:foreground ,fairy-carrot-800 :weight bold))))
    `(query-replace ((t (:inherit (isearch)))))
 
    ;; Org levels
