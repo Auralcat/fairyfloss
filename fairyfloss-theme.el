@@ -177,6 +177,10 @@ Authors:
   `(org-level-6 ((t (:foreground ,fairy-grape-300))))
   `(org-level-7 ((t (:foreground ,fairy-gold-800))))
 
+  ;; Org-pomodoro
+  `(org-pomodoro-mode-line ((t (:foreground ,fairy-carrot-1000))))
+  `(org-pomodoro-mode-line-break ((t (:foreground ,fairy-mint-800))))
+
   ;; Rainbow Delimiters
   `(rainbow-delimiters-depth-1-face ((t (:inherit org-level-1))))
   `(rainbow-delimiters-depth-2-face ((t (:inherit org-level-2))))
