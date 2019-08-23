@@ -3,8 +3,7 @@
 Authors:
    - Original theme: @sailorhg
    - Auto-generated port for Emacs: @lrlna
-   - Adjustments: @Auralcat
-   Updated in 2019-03-22.")
+   - Adjustments: @Auralcat")
 
 (let (
       (fairy-sky-100      "#def8ff")
