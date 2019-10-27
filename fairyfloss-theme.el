@@ -40,7 +40,7 @@ Authors:
       (fairy-gold-200     "#fef693")
       (fairy-gold-300     "#fef36e")
       (fairy-gold-400     "#fff352")
-      (fairy-gold-500     "#feed24")
+      (fairy-gold-500     "#f5e700")
       (fairy-gold-600     "#ffea00")
       (fairy-gold-700     "#efdb00")
       (fairy-gold-800     "#e6c000")
@@ -89,8 +89,8 @@ Authors:
    `(button ((t (:inherit (link)))))
 
    ;; Typography faces
-   `(default ((t (:inherit nil :stipple nil :background "#5A5475" :foreground ,fairy-space-100 :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120))))
-   `(fixed-pitch ((t (:family "Monospace"))))
+   `(default ((t (:inherit nil :stipple nil :background "#433c65" :foreground ,fairy-space-100 :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120))))
+   `(fixed-pitch ((t (:family "Courier"))))
    `(variable-pitch ((t (:family "Sans Serif"))))
 
    ;; Company-mode
@@ -109,20 +109,20 @@ Authors:
    `(enh-ruby-string-delimiter-face ((t (:inherit font-lock-string-face))))
 
    ;; Font-lock-mode which is used for general programming faces
-   `(font-lock-builtin-face ((t (:foreground ,fairy-grape-500))))
+   `(font-lock-builtin-face ((t (:foreground ,fairy-blush-400))))
    `(font-lock-comment-delimiter-face ((t (:inherit (font-lock-comment-face)))))
    `(font-lock-comment-face ((t (:foreground ,fairy-gold-800))))
-   `(font-lock-constant-face ((t (:foreground ,fairy-grape-500))))
+   `(font-lock-constant-face ((t (:foreground ,fairy-grape-600))))
    `(font-lock-doc-face ((t (:inherit font-lock-string-face))))
-   `(font-lock-function-name-face ((t (:foreground ,fairy-mint-500))))
-   `(font-lock-keyword-face ((t (:foreground ,fairy-blush-300))))
+   `(font-lock-function-name-face ((t (:foreground ,fairy-gold-500))))
+   `(font-lock-keyword-face ((t (:foreground ,fairy-blush-400))))
    `(font-lock-negation-char-face ((t nil)))
    `(font-lock-preprocessor-face ((t (:inherit (font-lock-builtin-face)))))
    `(font-lock-regexp-grouping-backslash ((t (:inherit (bold)))))
    `(font-lock-regexp-grouping-construct ((t (:inherit (bold)))))
    `(font-lock-string-face ((t (:foreground ,fairy-gold-500))))
-   `(font-lock-type-face ((t (:foreground ,fairy-mint-500 :slant italic))))
-   `(font-lock-variable-name-face ((t (:foreground ,fairy-gold-400))))
+   `(font-lock-type-face ((t (:foreground ,fairy-gold-500 :slant italic))))
+   `(font-lock-variable-name-face ((t (:foreground ,fairy-blush-600))))
    `(font-lock-warning-face ((t nil)))
 
    ;; IDO
@@ -164,13 +164,14 @@ Authors:
    `(org-table ((t (:foreground ,fairy-gold-1000))))
    `(org-todo ((t (:foreground ,fairy-carrot-800 :weight bold))))
    `(query-replace ((t (:inherit (isearch)))))
+   `(org-block    ((t  (:inherit fixed-pitch))))
 
    ;; Org levels
-   `(org-level-1 ((t (:foreground ,fairy-gold-300))))
-   `(org-level-2 ((t (:foreground ,fairy-carrot-300))))
+   `(org-level-1 ((t (:foreground ,fairy-gold-500))))
+   `(org-level-2 ((t (:foreground ,fairy-carrot-400))))
    `(org-level-3 ((t (:foreground ,fairy-blush-500))))
    `(org-level-4 ((t (:foreground ,fairy-mint-500))))
-   `(org-level-5 ((t (:foreground ,fairy-sky-500))))
+   `(org-level-5 ((t (:foreground ,fairy-sky-400))))
    `(org-level-6 ((t (:foreground ,fairy-grape-300))))
    `(org-level-7 ((t (:foreground ,fairy-gold-800))))
 
