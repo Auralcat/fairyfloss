@@ -90,6 +90,9 @@ Authors:
 
    ;; Typography faces
    `(default ((t (:inherit nil :stipple nil :background "#433c65" :foreground ,fairy-space-100 :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120))))
+   ;; Fringe color. This is important if the user wants to change margins in
+   ;; their editor. We want to keep the same color as the background.
+    `(fringe ((t (:inherit default))))
 
    ;; Company-mode
    `(company-preview ((t (:foreground "#2aa198" :background "#eee8d5"))))
@@ -193,8 +196,6 @@ Authors:
    `(rainbow-delimiters-depth-5-face ((t (:inherit org-level-5))))
    `(rainbow-delimiters-depth-6-face ((t (:inherit org-level-6))))
    `(rainbow-delimiters-depth-7-face ((t (:inherit org-level-7))))
-   `(rainbow-delimiters-depth-8-face ((t (:inherit org-level-8)))))
-
-  )
+   `(rainbow-delimiters-depth-8-face ((t (:inherit org-level-8))))))
 
 (provide-theme `fairyfloss)
