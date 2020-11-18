@@ -90,8 +90,6 @@ Authors:
 
    ;; Typography faces
    `(default ((t (:inherit nil :stipple nil :background "#433c65" :foreground ,fairy-space-100 :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120))))
-   `(fixed-pitch ((t (:family "Courier"))))
-   `(variable-pitch ((t (:family "Sans Serif"))))
 
    ;; Company-mode
    `(company-preview ((t (:foreground "#2aa198" :background "#eee8d5"))))
